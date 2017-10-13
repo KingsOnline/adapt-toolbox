@@ -64,9 +64,18 @@
                         "validators": ["required"],
                         "help": "Enter a CSS icon for this item, e.g icon-folder"
                       },
+                      "label": {
+                        "type": "string",
+                        "required": false,
+                        "inputType": "Text",
+                        "title": "Icon label",
+                        "default": "",
+                        "validators": [],
+                        "translatable": true
+                      },
                       "_ariaLabel": {
                         "type": "string",
-                        "required": true,
+                        "required": false,
                         "inputType": "Text",
                         "title": "Item Aria Label",
                         "default": "",
